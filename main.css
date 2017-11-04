@@ -62,8 +62,15 @@ img, embed, object, video {
   max-width: 100px;
 }
 
-.sidebar-item:hover {
+a {
+  text-decoration: none;
+  color: #616161;
+  padding: 1.5em;
+}
+
+a:hover {
   text-decoration: underline;
+  color: #212121;
 }
 
 .sidebar-item img {
@@ -125,17 +132,6 @@ article img {
 
   .sidebar-item img {
     display: none;
-  }
-
-  nav a {
-    text-decoration: none;
-    color: #616161;
-    padding: 1.5em;
-  }
-
-  nav a:hover {
-    text-decoration: underline;
-    color: #212121;
   }
 
   header {
