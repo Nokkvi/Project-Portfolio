@@ -65,12 +65,15 @@ img, embed, object, video {
 a {
   text-decoration: none;
   color: #616161;
-  padding: 1.5em;
 }
 
 a:hover {
   text-decoration: underline;
   color: #212121;
+}
+
+nav a:hover {
+  padding: 1.5em;
 }
 
 .sidebar-item img {
